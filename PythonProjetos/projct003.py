@@ -1,0 +1,5 @@
+print('Digite de acordo com o que se pede abaixo!\nData de Nacimento:')
+dia = input('Digite o dia!')
+mes = input('Digite o mes!')
+ano = input('Digite o ano!')
+print('Voce nasceu em {}/{}/{}:)'.format(dia, mes, ano))

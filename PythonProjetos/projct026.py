@@ -1,0 +1,8 @@
+print(' '*20,'\033[0;31m<=>'*25)
+print(' '*20,'<==      Indentifica Uma Letra Desejada Em Um Frase Escolhida!!      ==>')
+print(' '*20,'<=>'*25)
+letra = input('\033[0;33mDigite a letra  OU Palavra desejada aqui: ')
+frase = input('Digite a frase escolhida para ser analizada aqui: ')
+print('\033[0;34ma letra OU Palavra escolhida aparece {}x'.format(frase.count(letra)))
+print('sua primeira apariçao foi na casa {}'.format(frase.find(letra)+1))
+print('sua ultima apariçao foi na casa {}'.format(frase.rfind(letra)+1))

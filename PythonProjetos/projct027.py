@@ -1,0 +1,11 @@
+from time import sleep
+print(' '*40,'\033[0;33m<=>'*11)
+print(' '*40,'<=  Primeiro Nome Ultimo Nome  =>')
+print(' '*40,'<=>'*11)
+nome = input('digite seu nome aqui: ')
+nome = nome.split()
+new = (len(nome)-1)
+print('\033[0;34mANALIZANDO........')
+sleep(1)
+print('\033[0;36mSeu Primeiro Nome e \033[0;31m{}\033[m.'.format(nome[0]))
+print('\033[0;36mSeu Ultimo Nome  e \033[0;31m{}\033[m.'.format(nome[new]))
